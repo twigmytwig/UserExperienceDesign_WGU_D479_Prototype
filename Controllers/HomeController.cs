@@ -18,6 +18,16 @@ namespace UserExperienceDesign_WGU_D479_Prototype.Controllers
             return View();
         }
 
+        public IActionResult Activities()
+        {
+            return View();
+        }
+
+        public IActionResult Lodging()
+        {
+            return View();
+        }
+
         public IActionResult Contact(){
             return View();
         }
