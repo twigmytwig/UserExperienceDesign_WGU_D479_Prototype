@@ -22,6 +22,23 @@ namespace UserExperienceDesign_WGU_D479_Prototype.Controllers
             return View();
         }
 
+
+        public IActionResult Transport(){
+            return View();
+        }
+
+        public IActionResult Dining(){
+            return View();
+        }
+
+        public IActionResult About(){
+            return View();
+        }
+
+        public IActionResult FAQ(){
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
