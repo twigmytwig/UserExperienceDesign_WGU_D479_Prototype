@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .hero{
+        background-image: url(/palm-tree.svg);
+        background-size: 320px;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<h1 class="visually-hidden">Heroes examples</h1>
+
+<div style="height: 320px" class="hero px-4 py-5 my-5 text-center">
+    
+</div>
+
+<div class="b-example-divider"></div>
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-locations-tab" data-bs-toggle="pill" data-bs-target="#pills-locations" type="button" role="tab" aria-controls="pills-locations" aria-selected="true">Popular Locations</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-dining-tab" data-bs-toggle="pill" data-bs-target="#pills-dining" type="button" role="tab" aria-controls="pills-dining" aria-selected="false">Recommended Dining</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-photos-tab" data-bs-toggle="pill" data-bs-target="#pills-photos" type="button" role="tab" aria-controls="pills-photos" aria-selected="false">Island Photos</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-sights-tab" data-bs-toggle="pill" data-bs-target="#pills-sights" type="button" role="tab" aria-controls="pills-sights" aria-selected="false">Sights to See</button>
+    </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-locations" role="tabpanel" aria-labelledby="pills-locations-tab">
+        <div class="card" style="width: 18rem;">
+            <img src="/mountains.svg" height="160" width="128" class="card-img-top" alt="Mountain Range">
+            <div class="card-body">
+                <h5 class="card-title">Location</h5>
+                <p class="card-text">Come visit this fantastic mountain range.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-dining" role="tabpanel" aria-labelledby="pills-dining-tab">
+        <div class="card" style="width: 18rem;">
+            <img src="/Dining.svg" height="160" width="128" class="card-img-top" alt="Dinner Plate">
+            <div class="card-body">
+                <h5 class="card-title">Resturaunt Recommendation</h5>
+                <p class="card-text">Come visit this fantastic 5 star resturaunt.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-photos" role="tabpanel" aria-labelledby="pills-photos-tab">
+        <div class="card" style="width: 18rem;">
+            <img src="/mountains.svg" height="160" width="128" class="card-img-top" alt="Mountain Range Photo">
+            <div class="card-body">
+                <h5 class="card-title">Island Photo Gallery</h5>
+                <p class="card-text">View the island photo gallery.</p>
+                <a href="#" class="btn btn-primary">View Gallery</a>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-sights" role="tabpanel" aria-labelledby="pills-sights-tab">
+        <div class="card" style="width: 18rem;">
+            <img src="/binoculars.svg" height="160" width="128" class="card-img-top" alt="binoculars">
+            <div class="card-body">
+                <h5 class="card-title">Tourist sight seeing guide</h5>
+                <p class="card-text">View the island sights to see.</p>
+                <a href="#" class="btn btn-primary">View Sights</a>
+            </div>
+        </div>
+    </div>
+</div>
